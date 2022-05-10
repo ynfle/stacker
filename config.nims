@@ -1,0 +1,2 @@
+--styleCheck:error
+--experimental:overloadableEnums
