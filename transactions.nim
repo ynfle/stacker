@@ -58,5 +58,6 @@ proc main() {.async.} =
   finally:
     file.close
 
-waitFor main()
+when isMainModule:
+  waitFor main()
 
